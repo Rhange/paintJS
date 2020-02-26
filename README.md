@@ -1,4 +1,4 @@
 # paintJS
 Painting Board made with VanillaJS
 
-[https://rhange.github.io/paintJS/] Link
+[Link]https://rhange.github.io/paintJS/ 
