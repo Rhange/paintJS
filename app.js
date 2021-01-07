@@ -74,7 +74,7 @@ function handleSaveClick(e) {
   const image = canvas.toDataURL();
   const link = document.createElement("a");
   link.href = image;
-  link.download = "ㅈㄹ 잘 그렸구만 👍";
+  link.download = "paintJS";
   link.click();
 }
 
@@ -87,8 +87,8 @@ if (canvas) {
   canvas.addEventListener("contextmenu", handleCM);
 }
 
-Array.from(colors).forEach(color =>
-  color.addEventListener("click", handleColorClick),
+Array.from(colors).forEach((color) =>
+  color.addEventListener("click", handleColorClick)
 );
 
 if (range) {

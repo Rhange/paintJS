@@ -16,6 +16,7 @@ body {
 }
 
 .controls {
+  width: 550px;
   margin-top: 80px;
   display: flex;
   flex-direction: column;
@@ -48,6 +49,8 @@ body {
 
 .controls .controls__colors {
   display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .controls__colors .controls__color {
